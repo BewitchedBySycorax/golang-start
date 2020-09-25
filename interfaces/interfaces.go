@@ -110,7 +110,7 @@ func main() {
 	walk(e)
 	sayHello(&russian{}, "Алексей")
 	sayHello(&american{}, "Aleksei")
-	m := map[string]interface{}{} // Map (associative array?) which has 'string' key and empty 'interface' value
+	m := map[string]interface{}{} // Map (associative array? No! It's map (карта)) which has 'string' key and empty 'interface' value
 	m["one"] = 1                  // Let's add any key to out map
 	m["two"] = 2.0                // Let's add any key to out map
 	m["three"] = true             // Let's add some keys to out map
